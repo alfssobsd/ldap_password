@@ -1,0 +1,11 @@
+A simple web page to change password in ldap
+#LDAP server
+	$host_ldap        = "ldap.example.ru";
+#admin user (enable view and update password)	
+	my $bind_dn       = "cn=admin,dc=example,dc=ru";
+#password admin user
+	my $bind_password = 'password';
+#users search base
+	my $search_base   = "ou=people,dc=example,dc=ru";
+#Password encryption algorithm (ssha,md5,crypt)
+	schema_pass       = ssha
