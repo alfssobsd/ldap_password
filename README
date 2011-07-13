@@ -1,4 +1,7 @@
 A simple web page to change password in ldap
+
+Setting in LdapPass.pl:
+
 #LDAP server
 	$host_ldap        = "ldap.example.ru";
 #admin user (enable view and update password)	
