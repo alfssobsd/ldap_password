@@ -1,0 +1,9 @@
+{
+	"ldap_host": "ldap.example.ru",
+	"ldap_user": "cn=admin,dc=example,dc=ru",
+	"ldap_password" : "test",
+	"ldap_search_base" : "ou=people,dc=example,dc=ru",
+	"schema_password" : "ssha",
+	"enable_samba_password" : "1",
+	"password_life": "700"
+}
